@@ -35,6 +35,10 @@ public class FirebaseManager {
 		}
 	}
 
+	/* Firebase needs to established the connection to send the information to the DB
+	 * Then that's why that code has a ApiFuture.
+	 */
+	
 	public void insert(HashMap<String, Double> price_per_currency) {
 		try {
 			DatabaseReference databaseReference = firebaseDatabase.getReference();
