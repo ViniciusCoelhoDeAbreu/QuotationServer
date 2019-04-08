@@ -4,4 +4,4 @@ QuotationServer is used to get value of currencies from HGBrasil's API, and send
 That's using to get information for my Android's APP. 
 
 
-That is using Java + Maven.
+That is using Java + Maven + Firebase API.
